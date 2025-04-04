@@ -34,4 +34,8 @@ button {
     margin-top: 10px;
     font-size: 1rem;
 }
+
+button:hover {
+    background: #e91e63;
+}
   
