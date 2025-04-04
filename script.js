@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
         event.preventDefault(); 
         
-        form.innerHTML = "<h2>Thank You for Signing Up!</h2><p>Stay tuned for the latest fashion updates.</p>";
+        form.innerHTML = `<h2 class="thank-you-message">Thank You for Signing Up!</h2>
+                  <p class="thank-you-text">Stay tuned for the latest fashion updates.</p>`;
         
         form.style.opacity = "0";
         setTimeout(() => {
